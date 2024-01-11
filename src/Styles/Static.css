@@ -1,0 +1,63 @@
+.product-wrapper {
+    display: block;
+    align-items: center;
+    width: 100%;
+    float: left;
+    transition: width .2s;
+}
+
+@media only screen and (min-width: 450px) {
+    .product-wrapper {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .product-wrapper {
+        width: 33.333%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .product-wrapper {
+        width: 25%;
+    }
+}
+
+.product {
+    display: flex;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 7px;
+    position: relative;
+    background: #fff;
+    margin: 20px 30px 0  20px;
+    text-decoration: none;
+    color: #474747;
+    height: 300px;
+    font-family: Handil Pro, sans-serif;
+}
+
+.product:hover {
+    box-shadow: 1px 2px 2px darkblue;
+}
+
+.ProductImg {
+    height: 90%;
+    position: absolute;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.ProductTitle {
+    position: absolute;
+    left: 10px;
+    top: 255px;
+    font-size: 20px;
+    color: #414141;
+}
+
+.Last-projects {
+    margin-left: 10px;
+    font-size: 25px;
+}

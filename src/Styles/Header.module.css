@@ -1,0 +1,51 @@
+.Header {
+    font-family: Handil Pro, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 2048px;
+}
+.Container {
+    margin-left: 200px;
+}
+.img {
+    height: 50px;
+    width: 80px;
+}
+
+.Home {
+    margin-left: 20px;
+}
+
+.Container-inner {
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+
+.Search {
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px 200px 8px 20px;
+    border: 1px solid black;
+    display: block;
+}
+
+.Search:focus {
+    border: 1px solid blue;
+}
+
+.Search-button {
+    position: absolute;
+    top: 2px;
+    right: -220px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+

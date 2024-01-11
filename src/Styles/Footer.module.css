@@ -1,0 +1,12 @@
+.Footer {
+    font-family: Handil Pro, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    margin-top: 100px;
+    width: 2048px;
+    height: 75px;
+    max-height: 100px;
+    position: absolute;
+    bottom: 0;
+}

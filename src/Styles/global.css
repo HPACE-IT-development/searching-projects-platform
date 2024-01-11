@@ -1,0 +1,21 @@
+body {
+    background: white;
+    font-size: 16px;
+    line-height: 14px;
+    font-family: Handil Pro, sans-serif;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    display: none;
+}
+
+.HPACE {
+    color: blue;
+    text-decoration: none;
+    position: relative;
+}
+
